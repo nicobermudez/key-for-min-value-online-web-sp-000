@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   min = 99999999
-  min_key = ""
+  min_key = nil
   if hash = {} || hash == nil
     nil
   end
