@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   min = 99999999
-  if hash = {} || hash == nil 
+  if hash = {} || hash == nil
     nil
   end 
   hash.select do |key, value|
