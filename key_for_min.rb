@@ -2,5 +2,9 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(hash)
-  hash.select {|key, value| value = hash.values.min}
+  min = 99999999
+  hash.select do |key, value| 
+    if value < min 
+      min = value
+    end
 end
